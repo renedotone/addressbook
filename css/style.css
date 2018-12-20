@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    background-color: rgb(21, 21, 168);
+}
+
+body{
+    background-color: rgb(146, 178, 199);
+}
+
+.container{
+    background-color: rgb(146, 178, 199);
+    margin: auto;
+}
+
+.card{
+    border-style: solid;
+    margin-bottom: 10px;
+    border-color:  rgb(21, 21, 168);
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em; 
+}
+
+.voornaam{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.achternaam{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.btn{
+    margin-left: 52.5px;
+    margin-bottom: 5px;
+}
+
+/*  Searchbar  */
+label {
+    display: block;
+    font: 2rem 'Fira Sans', sans-serif;
+    float: left;
+}
+
+input,
+label {
+    margin: .4rem 0;
+    margin-left: 3px; 
+}
+
+.note {
+    font-size: .8em;
+}
